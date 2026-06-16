@@ -1,115 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>SSH School</title>
-    <style>
-        
-        /* Add your CSS styles here */
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenwood Primary School</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><center>
-        <h1>SSH School</h1>
-        <p>Excellence in Education Since 2026</p>
-    </header>
-</center>
 
-<nav>
-    <h3><center>
-    <a href="#" class="active" id="home-link" onclick="showPage('home')">Home</a>
-    <a href="#" id="about-link" onclick="showPage('about')">About</a>
-    <a href="#" id="contact-link" onclick="showPage('contact')">Contact Us</a>
-    <a href="#" id="login-link" onclick="showPage('login')">Login</a>
-    <a href="#" id="register-link" onclick="showPage('signup')">Register</a>
-    </h3></center>
-</nav>
+  <header class="navbar">
+    <div class="logo">SSH <span> School</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#academics">Academics</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<img src="1d1fe10e-efba-4fa3-8724-2926f5e83c60.png" alt="SSH School" width="1500" height="400">
-
-<main>
-    <br>
-    <section id="home" class="page">
-        <h1>Welcome to SSH School!</h1>
-        <p>At SSH School, we are committed to providing a nurturing and stimulating environment for our students. Our dedicated faculty and staff work tirelessly to ensure that every student receives a high-quality education that prepares them for success in the future.</p>
-        <p>Our curriculum is designed to foster critical thinking, creativity, and a love of learning. We offer a wide range of extracurricular activities, including sports, arts, and clubs, to help our students develop their talents and interests.</p>
-        <p>Join us at SSH School and be part of a community that values education, diversity, and personal growth. Together, we can achieve great things!</p>
-    </section>
-
-    <section class="hero">
-
-    <div class="overlay"></div>
-
-    <div class="content">
-
-        <div class="line"></div>
-        <br>
-
-
-        <h1>
-            The Champion School Texas <br>
-        </h1>
-
-        <p>
-            This is where we teach students skills they need
-            to transform themselves, others, and our global
-            communities.
-        </p>
-
-        <button>Academics</button>
-
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Where Curious Minds Grow</h1>
+      <p>Quality education built on care, creativity, and community since 2005.</p>
+      <a href="#about" class="btn">Learn More</a>
     </div>
+  </section>
 
-</section>
+  <section class="about" id="about">
+    <h2>About Our School</h2>
+    <p>SSH School has been nurturing young learners for over three decades. We believe every child deserves a safe, supportive, and inspiring place to discover their potential — academically, socially, and creatively.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>To provide a strong foundation of knowledge, values, and confidence for every student.</p>
+      </div>
+      <div class="card">
+        <h3>Our Teachers</h3>
+        <p>Experienced, caring educators dedicated to bringing out the best in every child.</p>
+      </div>
+      <div class="card">
+        <h3>Our Community</h3>
+        <p>A warm, friendly environment where students, parents, and teachers grow together.</p>
+      </div>
+    </div>
+  </section>
 
+  <section class="academics" id="academics">
+    <h2>Academics</h2>
+    <div class="subjects">
+      <div class="subject">📘 Mathematics</div>
+      <div class="subject">🔬 Science</div>
+      <div class="subject">🎨 Art & Craft</div>
+      <div class="subject">🌍 Social Studies</div>
+      <div class="subject">💻 Computing</div>
+      <div class="subject">⚽ Sports</div>
+    </div>
+  </section>
 
+  <section class="events" id="events">
+    <h2>Upcoming Events</h2>
+    <ul class="event-list">
+      <li><span>July 12</span> Annual Sports Day</li>
+      <li><span>July 20</span> Science Exhibition</li>
+      <li><span>Aug 02</span> Parent-Teacher Meeting</li>
+      <li><span>Aug 15</span> Cultural Festival</li>
+    </ul>
+  </section>
 
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>123 Wattapahala, Lidagava, Sri Lanka</p>
+    <p>Phone: +94 77 123 4567 &nbsp;|&nbsp; Email: info@sshschool.lk</p>
+  </section>
 
-            <div class="right-content">
-                <div class="blue-line"></div>
-
-                <p>
-                    We are an early learning academy focused on social-emotional
-                    development and early literacy and numeracy. Our students walk out
-                    with the character and confidence to make their mark in the world,
-                    equipped with the knowledge and real-world skills that take them way
-                    ahead in the industry they may serve.
-                </p>
-
-
-
-    <section id="about" class="page" style="display:none;">
-        <h2>About Us</h2>
-        <p>SSH School was founded in 2026 with the mission to provide an exceptional educational experience for students of all backgrounds. Our school is located in the heart of the city, making it easily accessible for families in the surrounding areas.</p>
-        <p>Our faculty consists of experienced educators who are passionate about teaching and dedicated to helping students reach their full potential. We believe in fostering a supportive and inclusive community where every student feels valued and empowered.</p>
-    </section>
-<br><br>
-
-<video width="1000" height="500" controls>
-    <source src="5904539-uhd_2160_3840_24fps.mp4" type="video/mp4" width="1000" height="500">
-</video>
-
-<footer>
-
-    <hr>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like more information about SSH School, please feel free to contact us:</p>
-        <ul>
-            <li>Email: info@sshschool.edu</li>
-            <li>Phone: (071) 234-5678</li>
-            <li>Address: 123 Main Street, Ubalage Gedara, Wattapahala, </li>
-        </ul>
-                
-                </section>
-
-</main>
-    
-        <p>&copy; 2024 SSH School. All rights reserved.</p>
-</footer>
+  <footer>
+    <p>&copy; 2026 SSH School. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
